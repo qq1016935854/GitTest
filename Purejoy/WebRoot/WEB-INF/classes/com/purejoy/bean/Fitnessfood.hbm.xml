@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.purejoy.bean.Fitnessfood" table="pure_fitnessfood">
+		<id name="id">
+			<generator class="native"></generator>
+		</id>
+		<property name="fitnessfood_name"></property>
+		<property name="fitnessfood_type"></property>
+		<property name="fitnessfood_price"></property>
+		<property name="fitnessfood_img"></property>
+		<property name="fitnessfood_cycle"></property>
+		<property name="fitnessfood_description"></property>
+		<property name="fitnessfood_count"></property>
+		<property name="fitnessfood_status"></property>
+	</class>
+</hibernate-mapping>
